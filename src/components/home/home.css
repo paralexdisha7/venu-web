@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Josefin+Sans:wght@300;400&family=Play&family=Playball&family=Poppins:wght@200;300;500;600&display=swap");
+
+.container {
+  width: 1280px;
+}
+.tree img {
+  position: fixed;
+  top: 0px;
+  right: 550px;
+  height: 100%;
+  z-index: 2;
+}
+.logo {
+  height: 100%;
+}
+.logo img {
+  position: relative;
+  left: 45%;
+  top: 150px;
+  width: 600px;
+}
+.logo h3 {
+  position: relative;
+  left: 45%;
+  top: 60px;
+  width: fit-content;
+  font-size: 60px;
+  font-family: 'Playball';
+}
+.logo h2 {
+  position: relative;
+  left: 70%;
+  top: 60px;
+  width: fit-content;
+  font-size: 30px;
+}

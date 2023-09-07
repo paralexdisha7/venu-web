@@ -1,0 +1,40 @@
+.active{
+    background-color: #39593E;
+    color: #F6FFF8;
+}
+.active:hover{
+    text-decoration: none;
+    color: #F6FFF8;
+
+}
+.Mynav{
+    background-color: #47744E;
+    z-index: 10;
+}
+.nav-logo h4{
+    color: #F6FFF8;
+}
+.toggle-btn{
+   background-color: #b8f0c4;
+  }
+.Mylink{
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px none;
+    color: #F6FFF8;
+}
+.Mylink:not(.active):hover{
+    text-decoration: none;
+    border: 1px solid;
+    color: #F6FFF8;
+}
+@media (max-width:680px){
+  .nav-logo{
+    padding: 0px 10px;
+  }
+  .toggle-btn{
+    margin: 0 10px;
+  }
+}
