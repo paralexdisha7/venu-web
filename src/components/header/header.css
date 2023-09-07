@@ -1,40 +1,44 @@
-.active{
-    background-color: #39593E;
-    color: #F6FFF8;
-}
-.active:hover{
-    text-decoration: none;
-    color: #F6FFF8;
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Josefin+Sans:wght@300;400&family=Play&family=Playball&family=Poppins:wght@200;300;500;600&family=Taviraj:wght@300;400&display=swap");
 
+.active {
+  background-color: #39593e;
+  color: #f6fff8;
 }
-.Mynav{
-    background-color: #47744E;
-    z-index: 10;
+.active:hover {
+  text-decoration: none;
+  color: #f6fff8;
 }
-.nav-logo h4{
-    color: #F6FFF8;
+.Mynav {
+  background-color: #47744e;
+  z-index: 10;
 }
-.toggle-btn{
-   background-color: #b8f0c4;
-  }
-.Mylink{
-    text-decoration: none;
-    padding: 5px 10px;
-    margin: 0 10px;
-    border-radius: 5px;
-    border: 1px none;
-    color: #F6FFF8;
+.nav-logo h4 {
+  color: #f6fff8;
+  font-family: 'Taviraj' ,sans-serif;
+  font-weight: 200;
+  text-align: center;
 }
-.Mylink:not(.active):hover{
-    text-decoration: none;
-    border: 1px solid;
-    color: #F6FFF8;
+.toggle-btn {
+  background-color: #b8f0c4;
 }
-@media (max-width:680px){
-  .nav-logo{
+.Mylink {
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  border: 1px none;
+  color: #f6fff8;
+}
+.Mylink:not(.active):hover {
+  text-decoration: none;
+  border: 1px solid;
+  color: #f6fff8;
+}
+@media (max-width: 680px) {
+  .nav-logo {
     padding: 0px 10px;
   }
-  .toggle-btn{
+  .toggle-btn {
     margin: 0 10px;
   }
 }
