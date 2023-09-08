@@ -24,7 +24,7 @@ const Home = () => {
       <div className="about">
         <h1>About Us</h1>
         <div className="info">
-          <img src="public/images/random.jpg" alt="profile" />
+          <img src="images\random.jpg" alt="profile" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
             earum facilis quae, harum labore illum, nobis explicabo laudantium
