@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Josefin+Sans:wght@300;400&family=Play&family=Playball&family=Poppins:wght@200;300;500;600&family=Taviraj:wght@300;400&display=swap");
-
+.s-links{
+  display: none;
+}
 .active {
   background-color: #39593e;
   color: #f6fff8;
@@ -17,6 +19,7 @@
   font-family: 'Taviraj' ,sans-serif;
   font-weight: 200;
   text-align: center;
+  cursor: none;
 }
 .toggle-btn {
   background-color: #b8f0c4;
@@ -34,6 +37,23 @@
   border: 1px solid;
   color: #f6fff8;
 }
+.cart{
+  padding: 5px 10px;
+  font-size: 18px;
+  /* border-radius: 50%; */
+  /* box-shadow: 10px 0px 30px -5px #87cd92; */
+}
+
+@media (max-width: 1000px) {
+  .s-links{
+      display:flex;
+      justify-content: center;
+      gap: 30px;
+      /* border-radius: 0px; */
+  }
+
+}
+
 @media (max-width: 680px) {
   .nav-logo {
     padding: 0px 10px;

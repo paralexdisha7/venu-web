@@ -1,0 +1,23 @@
+.social.links {
+  display: inline;
+  justify-items: center;
+}
+.link-s {
+  background-color: #a7e7b5;
+  /* width: 50px;
+    height: 50px; */
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.link-s:hover {
+  box-shadow: 5px 0px 30px 1px#5f966762;
+  transform: scale(1.05);
+  /* background-color: #39593e; */
+  /* transition: 0s; */
+
+}
+
+.link-s a {
+  color: #39593e;
+}

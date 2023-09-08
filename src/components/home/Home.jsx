@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import "./home.css";
+import Social from "../social/Social";
 const Home = () => {
-  const [tree,setTree] = useState(false);
-  const changeOpacity = ( ) => {
-    if(window.scrollY >= 60 ){
-      setTree(true)
-    }else{
-      setTree(false)
+  const [tree, setTree] = useState(false);
+  const changeOpacity = () => {
+    if (window.scrollY >= 60) {
+      setTree(true);
+    } else {
+      setTree(false);
     }
-  } 
-  window.addEventListener('scroll',changeOpacity)
+  };
+  window.addEventListener("scroll", changeOpacity);
   return (
     <div className="container">
-      <div  className={ tree ? 'tree scrolled' : 'tree'}>
+      <div className={tree ? "tree scrolled" : "tree"}>
         <img src="./images/BAMBOO.png" alt="" />
       </div>
       <div className="logo">
@@ -22,8 +23,29 @@ const Home = () => {
       </div>
       <div className="about">
         <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, earum facilis quae, harum labore illum, nobis explicabo laudantium ea quo deleniti commodi quisquam molestiae nam mollitia asperiores? Rerum consequatur at enim error molestias delectus voluptatibus quibusdam expedita, nam officiis. Dolorem repellat cum expedita assumenda voluptatem iste, quasi sunt esse ipsam doloremque fugiat nostrum dicta voluptates vel nisi iusto velit voluptatum, qui cupiditate facere. Dolorem tenetur voluptates molestiae officia inventore? Quibusdam illo debitis libero itaque! Vitae distinctio exercitationem dolores officia suscipit, blanditiis commodi repellendus necessitatibus nam? Ullam, in repellendus aliquam delectus sequi, nemo incidunt, aliquid atque esse modi quia quasi provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit est reiciendis n</p>
-        
+        <div className="info">
+          <img src="public/images/random.jpg" alt="profile" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+            earum facilis quae, harum labore illum, nobis explicabo laudantium
+            ea quo deleniti commodi quisquam molestiae nam mollitia asperiores?
+            Rerum consequatur at enim error molestias delectus voluptatibus
+            quibusdam expedita, nam officiis. Dolorem repellat cum expedita
+            assumenda voluptatem iste, quasi sunt esse ipsam doloremque fugiat
+            nostrum dicta voluptates vel nisi iusto velit voluptatum, qui
+            cupiditate facere. Dolorem tenetur voluptates molestiae officia
+            inventore? Quibusdam illo debitis libero itaque! Vitae distinctio
+            exercitationem dolores officia suscipit, blanditiis commodi
+            repellendus necessitatibus nam? Ullam, in repellendus aliquam
+            delectus sequi, nemo incidunt, aliquid atque esse modi quia quasi
+            provident! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis velit est reiciendis n
+          </p>
+
+          
+        </div><br /><br />
+        <Social />
+        <br /><br />
       </div>
     </div>
   );
