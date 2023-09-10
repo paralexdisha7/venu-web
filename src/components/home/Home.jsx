@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./home.css";
 import Social from "../social/Social";
+import { AiOutlineArrowDown } from 'react-icons/ai';
+
 const Home = () => {
   const [tree, setTree] = useState(false);
   const changeOpacity = () => {
@@ -21,8 +23,10 @@ const Home = () => {
         <h3>Organic Scented Candles</h3>
         <h2>- By Aishwarya</h2>
       </div>
+      {/* "abt-scroll" */}
+      <h4 className={tree ? "abt-scroll  abt-scrolled" : "abt-scroll"}>About <AiOutlineArrowDown/></h4>
       <div className="about">
-        <h1>About Us</h1>
+        <h1>About Me</h1>
         <div className="info">
           <img src="images\random.jpg" alt="profile" />
           <p>

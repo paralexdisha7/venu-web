@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Josefin+Sans:wght@300;400&family=Play&family=Playball&family=Poppins:wght@200;300;500;600&display=swap");
+
+.contacts{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contacts h2{
+    margin-top: 30px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;  
+    color: #39593e;  
+}
+
+.form-main {
+   
+    display: flex;
+   
+    /* width: 800px; */
+    justify-content: center;
+  }
+  .form-sub{
+      /* background-color: #ffe5bd; */
+      border: 1px solid #39593e;
+      border-radius: 5px;
+      padding: 20px 10px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  form div {
+    padding: 10px;
+  }
+  form label{
+      /* position: absolute;
+      top: 6px;
+      left: 10px; */
+      padding: 0 8px;
+      color: #39593e;
+      font-family: 'Poppins' ,sans-serif;
+      font-weight: 500;
+      /* background-color:#E3DBDB; */
+   }
+  form input {
+    height: 20px;
+    width: 300px;
+    padding: 15px 10px;
+    background-color: #b8f0c4;
+    border: none;
+  
+  }
+  form textarea {
+    min-width: 300px;
+    min-height: 100px;
+    padding: 10px 5px;
+    /* background-color: #e3dbdb; */
+    background-color: #b8f0c4;
+    border: none;
+  }
+  .sub-btn{
+      width: 150px;
+      /* height: 30px; */
+      padding: 5px;
+      border-radius: 4px;
+      background-color: #b8f0c4;
+      color: #324A5F;
+      transition: ease 0.1s;
+  }
+  .sub-btn:hover{
+      cursor: pointer;
+      background-color: #47744e;
+      color: #b8f0c4;
+      border: 1px solid #b8f0c4;
+      transform: scale(1.05);
+  }
+  form radio{
+    width: 20px;
+  }
+  @media (max-width:860px){
+      .form-main {
+          /* margin-right: 200px; */
+          /* display: flex; */
+          flex-direction: column;
+          /* gap: 300px; */
+          /* width: 500px; */
+          /* justify-content: space-between; */
+          /* background-color: #e3dbdb; */
+        }
+  }
+  
+  @media (max-width:550px){
+      form input{
+          width: 250px;
+      }
+      form textarea{
+          min-width:250px;
+      }
+      .form-sub{
+          padding: 10px 10px;
+          border: none;
+      }
+      .form-main{
+          /* width: 450px; */
+          font-size: 15px;
+      }
+      
+  }
+  @media (max-width:400px){
+      h2{
+          font-size: 30px;
+          /* background-color: #ffe5bd; */
+          /* margin-bottom: 10px; */
+      }
+      .form-main{
+        /* margin-right:50px; */
+        width: 350px;
+      }
+      form input{
+          width: 300px;
+          /* height: 15px; */
+      }
+      .form-sub{
+          padding: 0px 10px;
+          border: none;
+      }
+      form textarea{
+          min-width:300px;
+      }
+      .sub-btn{
+          width: 150px;
+          height: 40px;
+      }
+      .info{
+          /* width: 250px; */
+          /* margin-left: 0%; */
+  
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+  }
+  
+@media (max-width: 1000px) {
+.myRow{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center/; */
+    padding: 5px;
+}
+}

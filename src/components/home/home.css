@@ -34,6 +34,9 @@
   top: 480px;
   width: fit-content;
   font-size: 30px;
+  font-family: "Clicker Script";
+  color: #39593e;
+  font-weight: 600;
 }
 .about{
   position: relative;
@@ -58,6 +61,15 @@
 .scrolled{
   opacity: 20%;
   transition: ease-in 0.5s;
+}
+.abt-scroll{
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+  font-weight: 100;
+}
+.abt-scrolled{
+  opacity: 0;
 }
 @media (max-width: 1000px) {
   .tree img {
@@ -109,16 +121,21 @@
     font-size: 15px;
   }
   .about{
-    height: 100vh;
+    height: 100%;
     margin: 0 5px;
+    font-size: 12px;
   }
   
   .about h1{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-size: 50px;
     position: relative;
     text-align: center;
   }
   .about img{
-margin-bottom: 20px;  }
+    margin-right: 10px;
+height: 200px;
+float: left;
+}
+
 }

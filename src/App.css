@@ -5,4 +5,11 @@
   height: 100%;
   font-family: 'Poppins'
 }
-
+.copy{
+  font-family: "Poppins";
+  position: absolute;
+  left: 2%;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.5;
+}

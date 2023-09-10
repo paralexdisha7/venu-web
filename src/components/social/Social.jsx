@@ -10,7 +10,7 @@ import {
 const Social = () => {
   return (
     <div>
-      <h3>Contact Us</h3>
+      <h3>Connect On</h3>
 
       <ListGroup horizontal className="social-links">
         <ListGroup.Item className="link-s">
